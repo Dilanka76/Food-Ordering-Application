@@ -122,7 +122,7 @@ class _ViewShopingCartPopupState extends State<ViewShopingCartPopup> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Container(
+              Expanded(
                 child: Center(
                   child: Container(
                     width: 150,
@@ -165,7 +165,8 @@ class _ViewShopingCartPopupState extends State<ViewShopingCartPopup> {
                   ),
                 ),
               ),
-              Container(
+              SizedBox(width: 3,),
+              Expanded(
                 child: Center(
                   child: Container(
                     width: 150,

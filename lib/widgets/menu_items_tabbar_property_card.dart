@@ -36,7 +36,7 @@ class _MenuItemsTabbarPropertyCardState
           appBar: AppBar(
             automaticallyImplyLeading: false,
             title: TabBar(
-              isScrollable: true,
+             isScrollable: true,
               labelColor: mainColor,
               tabs: [
                 Tab(child: Text("Ingredients", style: mainTopicSize)),

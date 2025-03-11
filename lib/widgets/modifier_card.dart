@@ -88,7 +88,6 @@ class _ModifierCardsState extends State<ModifierCards> {
                       bool isMinPermittedOptional =
                           modifiersSelectedListData[index]
                               .QuantityConstraintsRules["Quantity"]["IsMinPermittedOptional"];
-
                       int mintPermitted =
                           modifiersSelectedListData[index]
                               .QuantityConstraintsRules["Quantity"]["MinPermitted"];

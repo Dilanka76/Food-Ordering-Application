@@ -21,7 +21,7 @@ class _MenuLayoutState extends State<MenuLayout> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Container(
+        SizedBox(
           height: MediaQuery.of(context).size.height * 0.62,
           child: ListView.builder(
             itemCount: widget.menuDataList.length,

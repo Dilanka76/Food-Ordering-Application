@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Elcabanyaldesign(
-                          mainImageTopic: "Enjoy your Breakfast!",
+                          mainImageTopic: "Enjoy your Breakfast bbb !",
                           imageUrl: "https://i2.wp.com/www.personaltrainerfood.com/blog/wp-content/uploads/2020/01/breakfast-is-the-most-important-meal-of-the-day.jpg?resize=1254%2C836&ssl=1",
                         ),
                         SizedBox(height: 15,),

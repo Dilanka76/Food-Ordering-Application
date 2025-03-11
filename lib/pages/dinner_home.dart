@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_ordering_application/providers/home_page_provider.dart';
-import 'package:provider/provider.dart';
 import '../constant/colors_padding_sizes.dart';
 import '../widgets/dragable_menu_sheet.dart';
 import '../widgets/elCabanyalDesign.dart';

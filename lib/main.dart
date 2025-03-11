@@ -30,7 +30,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    final pageProvider = Provider.of<HomePageProvider>(context);
     return MaterialApp(
       title: 'Food Ordering application',
       debugShowCheckedModeBanner: false,
